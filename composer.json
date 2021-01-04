@@ -1,0 +1,17 @@
+{
+  "name": "yireo/shopware6-example-dealers-core",
+  "description": "Shopware 6 example dealers - Core plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Yireo\\ExampleDealersCore\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Yireo\\ExampleDealersCore\\YireoExampleDealersCore",
+    "label": {
+      "en-GB": "Shopware 6 example dealers - Core plugin"
+    }
+  }
+}
