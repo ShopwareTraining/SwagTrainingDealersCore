@@ -49,7 +49,7 @@ class DealerEntity extends Entity
      */
     public function getDescription(): string
     {
-        return $this->description;
+        return (string)$this->description;
     }
 
     /**
@@ -65,7 +65,7 @@ class DealerEntity extends Entity
      */
     public function getAddress(): string
     {
-        return $this->address;
+        return (string)$this->address;
     }
 
     /**
