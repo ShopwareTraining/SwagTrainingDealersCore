@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\ExampleDealersCore\Entity;
+namespace Yireo\ExampleDealersCore\Core\Content\Dealer;
 
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityIdTrait;
 
 /**
  * Class DealerEntity
- * @package Yireo\ExampleDealersCore\Entity
+ * @package Yireo\ExampleDealersCore\Core\Content\Dealer
  */
 class DealerEntity extends Entity
 {

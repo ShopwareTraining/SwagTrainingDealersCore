@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\ExampleDealersCore\Entity;
+namespace Yireo\ExampleDealersCore\Core\Content\Dealer;
 
 use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\CreatedAtField;
@@ -14,7 +14,7 @@ use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
 
 /**
  * Class DealerEntityDefinition
- * @package Yireo\ExampleDealersCore\Entity
+ * @package Yireo\ExampleDealersCore\Core\Content\Dealer
  */
 class DealerEntityDefinition extends EntityDefinition
 {
