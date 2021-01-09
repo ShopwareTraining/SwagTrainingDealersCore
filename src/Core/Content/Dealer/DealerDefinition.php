@@ -8,15 +8,14 @@ use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\PrimaryKey;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\Required;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\IdField;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\StringField;
-use Shopware\Core\Framework\DataAbstractionLayer\Field\TranslatedField;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\UpdatedAtField;
 use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
 
 /**
- * Class DealerEntityDefinition
+ * Class DealerDefinition
  * @package Yireo\ExampleDealersCore\Core\Content\Dealer
  */
-class DealerEntityDefinition extends EntityDefinition
+class DealerDefinition extends EntityDefinition
 {
     public const ENTITY_NAME = 'dealer_entity';
 

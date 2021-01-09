@@ -5,10 +5,10 @@ namespace Yireo\ExampleDealersCore\Core\Content\Dealer;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityCollection;
 
 /**
- * Class DealerEntityCollection
+ * Class DealerCollection
  * @package Yireo\ExampleDealersCore\Core\Content\Dealer
  */
-class DealerEntityCollection extends EntityCollection
+class DealerCollection extends EntityCollection
 {
     protected function getExpectedClass(): string
     {
