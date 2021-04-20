@@ -15,7 +15,7 @@ class Migration1609743530 extends MigrationStep
     public function update(Connection $connection): void
     {
         $sql = <<<SQL
-CREATE TABLE IF NOT EXISTS `dealer_entity` (
+CREATE TABLE IF NOT EXISTS `dealer` (
     `id` BINARY(16) NOT NULL,
     `name` VARCHAR(255) COLLATE utf8mb4_unicode_ci,
     `description` VARCHAR(255) COLLATE utf8mb4_unicode_ci,

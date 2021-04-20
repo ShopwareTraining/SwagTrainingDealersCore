@@ -17,7 +17,7 @@ use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
  */
 class DealerDefinition extends EntityDefinition
 {
-    public const ENTITY_NAME = 'dealer_entity';
+    public const ENTITY_NAME = 'dealer';
 
     /**
      * @return string
@@ -40,7 +40,7 @@ class DealerDefinition extends EntityDefinition
      */
     public function getCollectionClass(): string
     {
-        return DealerEntityCollection::class;
+        return DealerCollection::class;
     }
 
     /**

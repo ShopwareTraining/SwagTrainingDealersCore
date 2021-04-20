@@ -4,6 +4,7 @@ namespace Yireo\ExampleDealersCore\Core\Content\Dealer;
 
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityIdTrait;
+use Yireo\ExampleDealersCore\Core\Content\Dealer\Field\TechnicalNameTrait;
 
 /**
  * Class DealerEntity
@@ -12,6 +13,8 @@ use Shopware\Core\Framework\DataAbstractionLayer\EntityIdTrait;
 class DealerEntity extends Entity
 {
     use EntityIdTrait;
+
+    use TechnicalNameTrait;
 
     /**
      * @var string
