@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\ExampleDealersCore\Migration;
+namespace SwagTraining\DealersCore\Migration;
 
 use Doctrine\DBAL\Connection;
 use Shopware\Core\Framework\Migration\MigrationStep;

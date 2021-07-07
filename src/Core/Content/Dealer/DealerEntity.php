@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\ExampleDealersCore\Core\Content\Dealer;
+namespace SwagTraining\DealersCore\Core\Content\Dealer;
 
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityIdTrait;
-use Yireo\ExampleDealersCore\Core\Content\Dealer\Field\TechnicalNameTrait;
+use SwagTraining\DealersCore\Core\Content\Dealer\Field\TechnicalNameTrait;
 
 /**
  * Class DealerEntity
- * @package Yireo\ExampleDealersCore\Core\Content\Dealer
+ * @package SwagTraining\DealersCore\Core\Content\Dealer
  */
 class DealerEntity extends Entity
 {

@@ -1,15 +1,15 @@
 {
-  "name": "yireo/shopware6-example-dealers-core",
+  "name": "shopware-training/dealers-core",
   "description": "Shopware 6 example dealers - Core plugin",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Yireo\\ExampleDealersCore\\": "src/"
+      "SwagTraining\\DealersCore\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "Yireo\\ExampleDealersCore\\YireoExampleDealersCore",
+    "shopware-plugin-class": "SwagTraining\\DealersCore\\SwagTrainingDealersCore",
     "label": {
       "en-GB": "Shopware 6 example dealers - Core plugin"
     }

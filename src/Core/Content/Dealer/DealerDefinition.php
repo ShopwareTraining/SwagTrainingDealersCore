@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\ExampleDealersCore\Core\Content\Dealer;
+namespace SwagTraining\DealersCore\Core\Content\Dealer;
 
 use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\CreatedAtField;
@@ -13,7 +13,7 @@ use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
 
 /**
  * Class DealerDefinition
- * @package Yireo\ExampleDealersCore\Core\Content\Dealer
+ * @package SwagTraining\DealersCore\Core\Content\Dealer
  */
 class DealerDefinition extends EntityDefinition
 {

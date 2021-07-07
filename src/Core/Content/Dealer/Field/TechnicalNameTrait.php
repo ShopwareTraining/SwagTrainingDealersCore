@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\ExampleDealersCore\Core\Content\Dealer\Field;
+namespace SwagTraining\DealersCore\Core\Content\Dealer\Field;
 
 trait TechnicalNameTrait
 {

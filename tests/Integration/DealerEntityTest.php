@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Yireo\ExampleDealersCore\Tests\Integration;
+namespace SwagTraining\DealersCore\Tests\Integration;
 
 use PHPUnit\Framework\TestCase;
 use Shopware\Core\Framework\Context;
@@ -9,7 +9,7 @@ use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Filter\EqualsFilter;
 use Shopware\Core\Framework\Test\TestCaseBase\IntegrationTestBehaviour;
 use Shopware\Core\Framework\Uuid\Uuid;
-use Yireo\ExampleDealersCore\Core\Content\Dealer\DealerEntity;
+use SwagTraining\DealersCore\Core\Content\Dealer\DealerEntity;
 
 class DealerEntityTest extends TestCase
 {
