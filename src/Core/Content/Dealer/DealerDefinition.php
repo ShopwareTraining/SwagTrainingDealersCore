@@ -54,7 +54,7 @@ class DealerDefinition extends EntityDefinition
             new StringField('description', 'description'),
             new StringField('address', 'address'),
             new CreatedAtField(),
-            new UpdatedAtField(),
+            new UpdatedAtField()
         ]);
     }
 }
